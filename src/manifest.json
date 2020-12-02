@@ -2,13 +2,13 @@
   "manifest_version": 2,
 
   "name": "CMUnits",
-  "description": "Extends CMU Student Information Online interface with more data",
-  "author": "Marat Valiev",
-  "version": "0.0.1.4",
+  "description": "Extends CMU Stellic interface with more data",
+  "author": "Gabriel Rasskin",
+  "version": "0.0.1",
 
   "content_scripts": [
     {
-      "matches": ["https://s3.andrew.cmu.edu/sio/*"],
+      "matches": ["https://academicaudit.andrew.cmu.edu/*"],
       "js": ["content.js"],
       "run_at": "document_start"
     }
@@ -17,7 +17,7 @@
     "default_icon": {
       "128": "icon.png"
     },
-    "default_title": "About CMUnits",
+    "default_title": "About CMU Stellic Units",
     "default_popup": "options.html"
   },
   "icons": {
